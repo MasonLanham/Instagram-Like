@@ -1,5 +1,67 @@
-html, body {
+/*Typography*/
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+h1, h2, h3, h4, p, a{
     margin: 0;
-    padding: 0;
+}
+p{
+    line-height: 0.95rem;
+}
+.bold{
+    font-weight: 700;
+    font-size: 0.8125rem;
 }
 
+.location{
+    font-size: 0.75rem;
+}
+/*Spacing*/
+header, section{
+    width: 375px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #C6C6C6;
+    box-shadow: 6px 0px #EDEDED;
+}
+section{
+    margin: 0 auto;
+    border-bottom: 25px solid #EDEDED;
+    box-shadow: 6px 0px #EDEDED;
+}
+.logo{
+    height: 50px;
+    margin: 16px 0px 13px 15px;
+}
+.icon{
+    width: 25px;
+    margin: 10px;
+}
+.post{
+    width: 100%;
+    margin: 10px 0px;
+}
+.post-text{
+    margin-left: 13px;
+    margin-bottom: 12px;
+    display: block;
+}
+.post-user-info{
+    display: inline-block;
+}
+.post-avatar{
+    display: inline;
+    margin: 10px 7px 0px 10px;
+}
+.user-avatar{
+    margin: 16px 16px 16px 16px;
+}
+.pfp{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
